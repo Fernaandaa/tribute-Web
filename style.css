@@ -186,8 +186,34 @@ hr{
 }
 
 
-@media screen and (max-width: 700px) {
-	.grid .item {
-		width: calc(50% - 20px);
+@media (max-width: 640px) {
+    .nav {
+        width: 100%;
+    }
+
+	.nav a {
+	  text-decoration: none;
+	  padding: 7px 10px;
+      margin: 0px 10px;
+	  transition: all 0.3s ease-in-out;
+      font-size: 18px;
 	}
+
+    .nav.active {
+        width: 100%;
+    }
+
+      .div__content {
+          margin: -30px 15% 0;
+    }
+
+    .Tittle{
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+        margin: 10% 25%;
+    }
+
     }
